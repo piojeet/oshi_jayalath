@@ -79,6 +79,7 @@ body {
     color: var(--light-color);
     text-decoration: none;
     font-weight: 400;
+    cursor: pointer;
 }
 
 .menu__btn svg {
@@ -179,7 +180,7 @@ body {
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1.3fr .7fr;
-    padding-top: 50px;
+    padding-top: 120px;
 }
 
 .mask-frame {
@@ -248,7 +249,7 @@ body {
     max-width: 1440px;
     width: 100%;
     margin: 0 auto;
-    padding: 100px 0;
+    padding: 120px 0;
 }
 
 .contact {
@@ -576,6 +577,7 @@ body {
         padding: 12px;
         text-align: center;
         border-bottom: 1px solid var(--para-light-color);
+        cursor: pointer;
     }
 
     .no-scroll {
@@ -636,5 +638,13 @@ body {
 
     .header__menu {
         top: 67px;
+    }
+
+    .about__container {
+        padding-top: 50px;
+    }
+
+    .contact__container {
+        padding: 100px 0;
     }
 }
