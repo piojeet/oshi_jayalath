@@ -108,9 +108,9 @@ body {
     position: relative;
 }
 
-/* .hero__content {
-    padding-top: 150px;
-} */
+.hero__content {
+    padding-bottom: 100px;
+}
 
 .hero__image {
     width: 100%;
@@ -166,6 +166,7 @@ body {
     border-radius: 3px;
     display: block;
     width: fit-content;
+    cursor: pointer;
 }
 
 .stars-img {
@@ -181,6 +182,7 @@ body {
     display: grid;
     grid-template-columns: 1.1fr .9fr;
     padding-top: 120px;
+    column-gap: 5rem;
 }
 
 .mask-frame {
@@ -220,7 +222,7 @@ body {
 .about__img1 {
     position: relative;
     z-index: 10;
-    width: 16vw;
+    width: 100%;
 }
 
 .about__label {
@@ -386,10 +388,14 @@ body {
     width: 100%;
 }
 
+.about__content {
+    align-content: center;
+}
+
 @media only screen and (max-width: 2000px) {
-    .about__img1 {
+    /* .about__img1 {
         width: 20vw;
-    }
+    } */
 
     .mask-frame {
         width: 20vw;
@@ -397,9 +403,9 @@ body {
 }
 
 @media only screen and (max-width: 1600px) {
-    .about__img1 {
+    /* .about__img1 {
         width: 25vw;
-    }
+    } */
 }
 
 
@@ -448,6 +454,10 @@ body {
     .about__img3 {
         left: 50%;
     }
+
+    .hero__content {
+    padding-bottom: 0;
+}
 }
 
 @media only screen and (max-width: 950px) {
@@ -527,6 +537,10 @@ body {
 
     .about__img3 {
         left: 26%;
+    }
+
+    .about__img1 {
+        width: 65vw;
     }
 
 }
@@ -643,7 +657,7 @@ body {
     }
 
     .about__img1 {
-        width: 45vw;
+        width: 65vw;
     }
 
     .mask-frame {
@@ -666,7 +680,7 @@ body {
 
 @media only screen and (max-width: 500px) {
     .about__img1 {
-        width: 68%;
+        width: 100%;
     }
 
     .mask-frame {
